@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Header } from "./components/Header";
-import newExpense from "./img/nuevo-gasto.svg";
+import newExpense from "../public/img/nuevo-gasto.svg";
 import { Modal } from "./components/Modal";
 import generateId from "./helpers/generateId";
 import { ExpensesList } from "./components/ExpensesList";

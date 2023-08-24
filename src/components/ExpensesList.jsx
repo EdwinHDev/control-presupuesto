@@ -12,7 +12,7 @@ export const ExpensesList = ({ expenses, setEditExpense, deleteExpense, filter, 
               filterExpenses.length > 0 && (
                 <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "24px" }}>
                   <p style={{ color: "gray" }}>Desliza a izquierda o derecha para editar o eliminar</p>
-                  <img src="/src/assets/custon_cursor.svg" alt="imagen deslizar" style={{ width: "32px", opacity: "0.6" }} />
+                  <img src="/img/custon_cursor.svg" alt="imagen deslizar" style={{ width: "32px", opacity: "0.6" }} />
                 </div>
               )
             }
@@ -35,7 +35,7 @@ export const ExpensesList = ({ expenses, setEditExpense, deleteExpense, filter, 
               expenses.length > 0 && (
                 <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "24px" }}>
                   <p style={{ color: "gray" }}>Desliza a izquierda o derecha para editar o eliminar</p>
-                  <img src="/src/assets/custon_cursor.svg" alt="imagen deslizar" style={{ width: "32px", opacity: "0.6" }} />
+                  <img src="/img/custon_cursor.svg" alt="imagen deslizar" style={{ width: "32px", opacity: "0.6" }} />
                 </div>
               )
             }

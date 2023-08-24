@@ -278,7 +278,7 @@ main {
     gap: 2rem;
     margin-bottom: 2rem;
     width: 100%;
-    cursor: url('/src/assets/custon_cursor.svg'),auto;
+    cursor: url('../public/img/custon_cursor.svg'),auto;
 }
 
 .cantidad-gasto {

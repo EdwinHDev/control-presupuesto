@@ -35,7 +35,7 @@ export const Expense = ({ expense, setEditExpense, deleteExpense }) => {
       >
         <div className="gasto sombra" style={{ userSelect: "none" }}>
           <div className="contenido-gasto">
-            <img src={`/src/img/icono_${category}.svg`} alt={category} />
+            <img src={`/img/icono_${category}.svg`} alt={category} />
             <div className="descripcion-gasto">
               <p className="categoria">{category}</p>
               <p className="nombre-gasto">{name}</p>

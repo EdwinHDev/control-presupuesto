@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import cerrarModal from "../img/cerrar.svg";
+import cerrarModal from "../../public/img/cerrar.svg";
 import { useEffect, useState } from 'react';
 import { Message } from './Message';
 
